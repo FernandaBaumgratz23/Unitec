@@ -1,0 +1,6 @@
+export { default as Home } from './Home'
+export { default as Login } from './Login'
+export { default as Inicial } from './Inicial'
+export { default as Catalogo } from './catalogo'
+export { default as LoginAdm } from './loginAdm'
+export { default as Empresa } from './empresa'

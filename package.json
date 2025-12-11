@@ -1,0 +1,69 @@
+{
+  "name": "gestorerp.catalogo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/colors": "^6.0.0",
+    "@ant-design/compatible": "1.1.0",
+    "@ant-design/icons": "^5.3.7",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
+    "@craco/craco": "6.4.3",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uiw/react-color-circle": "^1.0.6",
+    "antd": "^4.20.4",
+    "antd-form-builder": "^2.1.4",
+    "antd-img-crop": "^3.14.1",
+    "antd-mask-input": "^2.0.7",
+    "axios": "^1.6.8",
+    "browserlist": "^1.0.1",
+    "buffer": "^6.0.3",
+    "craco-less": "2.0.0",
+    "less": "4.1.2",
+    "less-loader": "10.2.0",
+    "moment": "^2.30.1",
+    "react": "^18.3.1",
+    "react-browser-hooks": "^2.2.4",
+    "react-dom": "^18.3.1",
+    "react-error-overlay": "^6.0.11",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "start-prod": "craco start",
+    "build": "craco build",
+    "build-prod": "SET REACT_APP_PUBLIC_URL=https://gestorerp.gestorweb.com.br/&& craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.92.0"
+  }
+}
